@@ -1,9 +1,26 @@
-.box{
+.box {
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
 footer p a {
-    margin: 1px 16px;
+    margin: 5px 15px;
+    
 }
 
+#links a:hover{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+ }
+
+ #links a{
+    color: rgb(109, 109, 109);
+    font-weight: 500;
+ }
+
+
+@media (max-width: 960px) {
+    #social-media{
+        margin-top: 10px;
+    }
+}
